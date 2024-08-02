@@ -1,0 +1,4 @@
+- create a header.jsx that renders a <header> element to show the app's name in an <h1>
+- create a footer.jsx that renders a <footer> element to show a copyright message in a <p> with dynamically updated year
+- create a Note.jsx to show a <div> element with a <h1> for a title and a <p> for the content
+- style the website like https://w00gz.csb.app/
