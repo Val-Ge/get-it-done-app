@@ -1,0 +1,11 @@
+.card {
+    background-color: rgb(164, 241, 241);
+    border: teal thick solid;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    flex: 1 1 300px; /* Make cards grow to fit container equally */
+    min-width: 300px; /* Prevent cards from shrinking too much */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}

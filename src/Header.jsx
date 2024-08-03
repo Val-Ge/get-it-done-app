@@ -1,8 +1,11 @@
+import "./Header.css";
 
-export default function Header(){
+export default function Header({ mainTitle }) {
+    const date = new Date().toLocaleDateString();
+
     return (
-        <>
-        <h1>Get-It-Done!</h1>
-        </>
-    )
+        <div className="header-container">
+            <h2 className="header-title">{mainTitle} {date}</h2>
+        </div>
+    );
 }

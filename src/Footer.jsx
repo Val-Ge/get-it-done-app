@@ -1,7 +1,8 @@
+import "./Footer.css"
 
 export default function Footer(){
     const year = new Date().getFullYear();
     return (
-        <p>Copyright Val {year}</p>
+        <p className="footer">Copyright Val {year}</p>
     )
 }
